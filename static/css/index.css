@@ -1,0 +1,3 @@
+p {background-color: gray;}
+a:link {color:#FF0000;}		/* 未被访问的链接 */
+a:visited {color:#00FF00;}	/* 已被访问的链接 */
