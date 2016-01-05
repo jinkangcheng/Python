@@ -1,0 +1,22 @@
+代码结构如下：
+.
+├── blog.py
+├── static
+│   ├── css
+│   │   └── index.css
+│   ├── images
+│   │   ├── cat.jpg
+│   │   
+│   └── js
+└── templates
+    ├── index.html
+    ├── login.html
+    ├── regist.html
+    └── upload.html
+5 directories, 7 files
+
+主要有首页、注册、登录、上传页面。
+主程序blog.py主要是展示了Flask中常见功能用法：路由，数据库操作，cookie，session，redirect，表单，文件上传，调试，Web服务器的IP和端口，静态文件读取等。
+首页模板index.html主要展示了在Flask模板中如何读取各种类型的变量。
+登录页面login.html结合blog.py主要展示表单如何提交取值，cookie和session应用。
+注册页面regist.html结合blog.py主要展示了如何上传文件。
